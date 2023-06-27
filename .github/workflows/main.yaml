@@ -18,7 +18,7 @@ jobs:
           repo: actions-experiment
           github_token: ${{ secrets.PAT }}
           workflow_file_name: e2e.yaml
-          client_payload: '{"ref":"main","inputs":{"label":"ruben testing"}}'
+          client_payload: '{"label":"ruben testing"}'
           propagate_failure: true
           trigger_workflow: true
           wait_workflow: true
